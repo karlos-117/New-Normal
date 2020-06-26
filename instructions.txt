@@ -1,0 +1,8 @@
+The steps:
+- login into Twitter
+- create a Twitter application on https://apps.twitter.com
+- copy the access keys and tokens from the "Keys and Access Tokens" tab inside the file "twitter_api_credentials.py" between quotes.
+- download the python libraries "tweepy" and "python-osc" using "pip install tweepy" and "pip install python-osc" from the terminal or command prompt
+- put the "twitter.receiver.maxpat" file inside the Max search path (or the same folder as the Max patch that uses it)
+- start the script by navigating to the folder where the scripts are and typing in the terminal "python tweepy_streamer.py"
+- change the keywords by modifying the "KEYWORDS" variable from inside the "python tweepy_streamer.py" file
